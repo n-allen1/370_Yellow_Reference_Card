@@ -42,7 +42,7 @@ body {
   font-size: 34px;
   line-height: 1.1;
   letter-spacing: 0.2px;
-  font-family: Georgia, "Times New Roman", serif;
+  font-family: Georgia, 'Times New Roman', serif;
 }
 
 .search-form {
@@ -164,12 +164,14 @@ body {
   background: #fff;
   border: 1px solid var(--line);
   border-radius: var(--radius);
-  overflow: hidden;
+  overflow-y: hidden;
+  overflow-x: auto;
   box-shadow: 0 10px 26px rgba(0, 0, 0, 0.1);
 }
 
 .data-table {
   width: 100%;
+  min-width: 700px;
   border-collapse: separate;
   border-spacing: 0;
   font-size: 14px;
@@ -194,11 +196,11 @@ body {
 }
 
 .op {
-  font-family: "Source Code Pro";
+  font-family: 'Source Code Pro';
 }
 
 .operands {
-  font-family: "Source Code Pro";
+  font-family: 'Source Code Pro';
 }
 
 .flag-pill {
