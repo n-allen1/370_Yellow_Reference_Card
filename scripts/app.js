@@ -123,6 +123,7 @@ function setupSearch() {
     if (input) input.value = '';
     renderTable(ALL);
     input?.focus();
+    updateResultCount(393);
   });
 }
 
